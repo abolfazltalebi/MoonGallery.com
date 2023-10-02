@@ -1,0 +1,130 @@
+:root {
+  --bg: #ffe288;
+  --text-navbar: #102c57;
+}
+/* start navbar css */
+.bg-navbar {
+  background: var(--bg);
+  color: var(--text-navbar);
+}
+.navbar-brand {
+  animation: bom 2s infinite;
+}
+.navbar-collapse {
+  transition: all ease 2s !important;
+}
+.nav-link {
+  color: var(--text-navbar) !important;
+  transition: all ease 0.4s;
+  border-radius: 30px;
+}
+.nav-item .nav-link:hover {
+  background: white;
+  transform: scale(1.1);
+}
+.btn-header-1,
+.btn-header-2 {
+  background: white;
+  border: none;
+  border-radius: 15px 2px;
+  padding: 7px 20px 7px 20px;
+  transition: all ease 0.4s;
+}
+.btn-header-1:hover,
+.btn-header-2:hover {
+  transform: translateY(-5px);
+}
+/* start section2 */
+.background {
+  background: var(--bg);
+}
+.line {
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background: #102c57;
+}
+
+.swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background: var(--bg);
+  color: #102c57;
+  border-radius: 50px;
+}
+.swiper-button-prev::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px !important;
+}
+
+.product .buy-btn {
+  background: #102c57;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all ease 0.3s;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px !important;
+}
+.product:hover .buy-btn {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all ease 0.3s;
+  border-radius: 25px 1px;
+}
+.product img {
+  transition: all ease 0.5s;
+}
+.product:hover img {
+  border-radius: 30% 0px !important;
+}
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1240px;
+  }
+}
+.items :is(.img-items, .title-items) {
+  transition: all ease 0.4s;
+}
+.items:hover .img-items,
+.items:hover .title-items {
+  background: #102c57 !important;
+  color: #ffe288 !important;
+  transform: translateY(10px);
+}
+.Border {
+  border-radius: 15px 2px !important;
+}
+
+@keyframes circle-in-center {
+  from {
+    clip-path: circle(0%);
+  }
+  to {
+    clip-path: circle(125%);
+  }
+}
+.about {
+  animation: 3s infinite cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
+}
+.cap {
+  position: absolute;
+  left: 60px;
+  top: 80px;
+}
+.shadoW {
+  box-shadow: 0 0px 3px 3px rgb(255 226 136) !important;
+}
+.acc img {
+  transition: all ease 0.2s;
+}
+.acc img:hover {
+  transform: scale(.97);
+}

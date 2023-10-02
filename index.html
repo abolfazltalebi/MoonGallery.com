@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Gallery.com</title>
+    <!-- font-->
+    <link rel="stylesheet" href="./assets/font/font.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.rtl.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="bg-navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
+        <div class="container-fluid bg-header navbar navbar-expand-md p-2">
+            <h2 class="mt-2 text-center color-header">گالری ماه</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                aria-controls="offcanvasNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-navbar" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h4 class="offcanvas-title text-black" id="offcanvasNavbar2Label">MoonGallery.com</h4>
+                    <button type="button" class="bg-body btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">صفحه اصلی </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product" target="_blank">محصولات ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme" target="_blank">درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" target="_blank"> تماس با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nazarat" target="_blank">نظرات</a>
+                        </li>
+                    </ul>
+                    <div class="btn-grou">
+                        <button class="btn-header-1">ورود</button>
+                        <button class="btn-header-2">ثبت نام</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <section class="section1 row my-3">
+            <div class="col-md-12 ">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="./assets/images/B1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="./assets/images/B2.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section2 background p-1 rounded-5">
+            <div class="col-md-3">
+                <h2 class="text-center">کالکشن ما</h2>
+                <div class="line"></div>
+            </div>
+            <section class="row p-2">
+                <div class="col-md-3 items my-2 my-md-0">
+                    <img src="./assets/images/gardanband.png" alt="" class="img-fluid w-100 rounded-pill img-items">
+                    <a href="#" class="text-decoration-none">
+                        <p class="text-center fw-bold bg-white text-black rounded-5 my-3 py-2 title-items ">گردنبند</p>
+                    </a>
+                </div>
+                <div class="col-md-3 items my-2 my-md-0">
+                    <img src="./assets/images/goshvareh.png" alt="" class="img-fluid w-100 rounded-pill img-items">
+                    <a href="#" class="text-decoration-none">
+                        <p class="text-center fw-bold bg-white text-black rounded-5 my-3 py-2 title-items ">گوشواره</p>
+                    </a>
+                </div>
+                <div class="col-md-3 items my-2 my-md-0">
+                    <img src="./assets/images/ring.png" alt="" class="img-fluid w-100 rounded-pill img-items">
+                    <a href="#" class="text-decoration-none">
+                        <p class="text-center fw-bold bg-white text-black rounded-5 my-3 py-2 title-items ">حلقه ازدواج
+                        </p>
+                    </a>
+                </div>
+                <div class="col-md-3 items my-2 my-md-0">
+                    <img src="./assets/images/ring2.jpg" alt="" class="img-fluid w-100 rounded-pill img-items">
+                    <a href="#" class="text-decoration-none">
+                        <p class="text-center fw-bold bg-white text-black rounded-5 my-3 py-2 title-items ">حلقه برلیان
+                        </p>
+                    </a>
+                </div>
+            </section>
+        </section>
+        <section class="section3 row my-3">
+            <div class="col-md-4">
+                <div>
+                    <img src="./assets/images/gallery-img-8.jpg" alt="" class="img-fluid rounded-4 about">
+                </div>
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+                <div class="caption">
+                    <h2 class="text-center my-3">درباره ما</h2>
+                    <p class="">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                        تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در
+                        شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها
+                        شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد
+                        کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به
+                        پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای
+                        موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="button" class="background textblack border-0 px-5 py-2 Border">
+                            تماس با ما
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4 background p-1 rounded-5 my-4">
+            <div class="col-md-3 my-2">
+                <h2 class="text-center">پیشنهاد شگفت انگیز</h2>
+                <div class="line"></div>
+            </div>
+            <section class="row bg-white rounded-5 rounded-top mx-auto p-2">
+                <div class="swiper ">
+                    <div class="slide-content">
+                        <div class="swiper-wrapper mb-4">
+                            <div class="swiper-slide ">
+                                <div class="">
+                                    <div class="item product">
+                                        <div>
+                                            <img src="./assets/images/gallery-img-3.jpg" alt=""
+                                                class="img-fluid rounded-5 w-100">
+                                        </div>
+                                        <div class="caption-item">
+                                            <h5 class="my-2 fw-bold">حلقه ست زنانه و مردانه</h5>
+                                            <p class="text-end mt-3 ">2/300/000 تومان</p>
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <button class="buy-btn">افزودن به سبد خرید</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="">
+                                    <div class="item product">
+                                        <div>
+                                            <img src="./assets/images/gallery-img-8.jpg" alt=""
+                                                class="img-fluid rounded-5 w-100">
+                                        </div>
+                                        <div class="caption-item">
+                                            <h5 class="my-2 fw-bold">طلای پهن 18عیار</h5>
+                                            <p class="text-end mt-3 ">5/300/000 تومان</p>
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <button class="buy-btn">افزودن به سبد خرید</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="">
+                                    <div class="item product">
+                                        <div>
+                                            <img src="./assets/images/gallery-img-5.jpg" alt=""
+                                                class="img-fluid rounded-5 w-100">
+                                        </div>
+                                        <div class="caption-item">
+                                            <h5 class="my-2 fw-bold">حلقه پهن زنانه</h5>
+                                            <p class="text-end mt-3 ">2/300/000 تومان</p>
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <button class="buy-btn">افزودن به سبد خرید</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="">
+                                    <div class="item product">
+                                        <div>
+                                            <img src="./assets/images/gallery-img-6.jpg" alt=""
+                                                class="img-fluid rounded-5 w-100">
+                                        </div>
+                                        <div class="caption-item">
+                                            <h5 class="my-2 fw-bold">انگشتر نقره زنانه</h5>
+                                            <p class="text-end mt-3 ">5/000/000 تومان</p>
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <button class="buy-btn">افزودن به سبد خرید</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="">
+                                    <div class="item product">
+                                        <div>
+                                            <img src="./assets/images/gallery-img-8.jpg" alt=""
+                                                class="img-fluid rounded-5 w-100">
+                                        </div>
+                                        <div class="caption-item">
+                                            <h5 class="my-2 fw-bold">طلای 18عیار مدل پهن</h5>
+                                            <p class="text-end mt-3 ">22/300/000 تومان</p>
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <button class="buy-btn">افزودن به سبد خرید</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="">
+                                    <div class="item product">
+                                        <div>
+                                            <img src="./assets/images/gallery-img-3.jpg" alt=""
+                                                class="img-fluid rounded-5 w-100">
+                                        </div>
+                                        <div class="caption-item">
+                                            <h5 class="my-2 fw-bold">گوشواره طلا 18عیار</h5>
+                                            <p class="text-end mt-3 ">2/900/000 تومان</p>
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <button class="buy-btn">افزودن به سبد خرید</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="">
+                                    <div class="item product">
+                                        <div>
+                                            <img src="./assets/images/gallery-img-5.jpg" alt=""
+                                                class="img-fluid rounded-5 w-100">
+                                        </div>
+                                        <div class="caption-item">
+                                            <h5 class="my-2 fw-bold">حلقه زنانه </h5>
+                                            <p class="text-end mt-3 ">4/300/000 تومان</p>
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <button class="buy-btn">افزودن به سبد خرید</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+        </section>
+        <section class=" section5 row my-4">
+            <div class="col-md-6 position-relative acc">
+                <div><img src="./assets/images/banner-1.jpg" alt="" class="img-fluid rounded-5 shadoW"></div>
+                <div class="cap">
+                    <h4>بهترین اکسسوری ها</h4>
+                    <div class="d-flex align-items-center justify-content-center mt-3">
+                        <button type="button" class="background textblack border-0 px-5 py-2 Border">
+                            خرید کنید
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 position-relative acc">
+                <div><img src="./assets/images/banner-2.jpg" alt="" class="img-fluid rounded-5 shadoW"></div>
+                <div class="cap">
+                    <h4>بهترین جواهرات و انگشتر ها</h4>
+                    <div class="d-flex align-items-center justify-content-center mt-3">
+                        <button type="button" class="background textblack border-0 px-5 py-2 Border">
+                            خرید کنید
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- bootstrap -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

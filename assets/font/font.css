@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "estedad";
+  src: url(/assets/font/Estedad-Bold.woff2) format("woff2"),
+    url(/assets/font/Estedad-Regular.woff2) format("woff2"),
+    url(/assets/font/Estedad-Medium.woff2) format("woff2"),
+    url(/assets/font/Estedad-SemiBold.woff2) format("woff2"),
+    url(/assets/font/Estedad-Thin.woff2) format("woff2");
+}
+* {
+  font-family: 'estedad';
+}

@@ -111,7 +111,8 @@
     clip-path: circle(125%);
   }
 }
-.about {
+.about,
+.anim {
   animation: 3s infinite cubic-bezier(0.25, 1, 0.3, 1) circle-in-center both;
 }
 .cap {
@@ -126,5 +127,16 @@
   transition: all ease 0.2s;
 }
 .acc img:hover {
-  transform: scale(.97);
+  transform: scale(0.97);
+}
+.box{
+  transition: all ease 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+.box:hover{
+  transform: translateY(-10px);
+  border-right: 5px solid var(--bg);
+  border-left: 5px solid var(--bg);
+  border-radius: 5px;
 }
